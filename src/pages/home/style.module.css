@@ -1,0 +1,18 @@
+.layout {
+}
+
+.feed-container {
+  max-width: 630px;
+  width: 100%;
+}
+
+.suggestion-container {
+  width: 383px;
+  padding-left: 64px;
+}
+
+@media (max-width: 1159px) {
+  .suggestion-container {
+    display: none;
+  }
+}

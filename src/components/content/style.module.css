@@ -1,0 +1,24 @@
+/* >= 1920px */
+.content {
+  width: calc(100% - var(--nav-wide-width));
+  height: 100vh;
+  overflow-y: auto;
+}
+
+@media (min-width: 1264px) and (max-width: 1919px) {
+  .content {
+    width: calc(100% - var(--nav-medium-width));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1264px) {
+  .content {
+    width: calc(100% - var(--nav-narrow-width));
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    width: 100%;
+  }
+}
